@@ -16,8 +16,8 @@ body {
   font-weight: bold;
   text-align: center;
   padding: 0.5rem 0;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .container {
@@ -36,6 +36,7 @@ body {
   font-size: 3rem;
   font-weight: bold;
   border-radius: 4px;
+  margin: 0 1rem;
 }
 
 button {
@@ -55,4 +56,19 @@ button {
 button:hover {
   background-color: #222;
   color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  .main-content {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .main-content {
+    font-size: 1.2rem;
+  }
+  button {
+    font-size: 0.7rem;
+  }
 }

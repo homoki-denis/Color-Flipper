@@ -10,8 +10,8 @@ btn.addEventListener("click", function () {
     hexValue += hex[randomNumber()];
   }
   color.textContent = hexValue;
-  document.body.style.backgroundColor = hexValue;
   color.style.color = hexValue;
+  document.body.style.backgroundColor = hexValue;
 });
 
 function randomNumber() {
